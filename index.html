@@ -14,14 +14,15 @@
       color: #222;
       h3 { font-size: 1.05em; margin: 1.2em 0 0.3em; }
     }
-    header { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
-    header img { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; }
+    header img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    /* Zoom photo approximately 40% */
     object-view-box: inset(14.3%);
-    h1 { margin: 0; }
-    .affil { margin: 0.25rem 0; color: #555; }
-    a { color: #1a5fb4; }
-    h2 { margin-top: 2.5rem; border-bottom: 1px solid #ddd; }
-    li { margin-bottom: 0.6rem; }
+}
   </style>
 </head>
 <body>
